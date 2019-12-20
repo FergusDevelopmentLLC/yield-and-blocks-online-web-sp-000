@@ -14,11 +14,11 @@ end
 myArray = ["Tim", "Tom", "Jim"]
 hello_t(myArray)
 
-hello_t(myArray) { |name|
+hello_t(myArray) do |name|
   if name.start_with?("J")
     puts "Hi, #{name}"
   end
-}
+end
 
 # def hello_2(array)
 #   i = 0
