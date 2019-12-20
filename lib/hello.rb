@@ -15,7 +15,7 @@ myArray = ["Tim", "Tom", "Jim"]
 hello_t(myArray)
 
 hello_t(myArray) { |name|
-  if name.start_with?("T")
+  if name.start_with?("J")
     puts "Hi, #{name}"
   end
 }
