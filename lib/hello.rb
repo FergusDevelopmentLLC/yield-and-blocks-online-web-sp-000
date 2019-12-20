@@ -18,7 +18,7 @@ def hello_2(array)
   i = 0
   while i < array.length
     if array[i].start_with?("T")
-      puts "Hi, #{name}"
+      puts "Hi, #{array[i]}"
     end
     i = i + 1
   end
