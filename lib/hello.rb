@@ -25,6 +25,6 @@ def hello_2(array)
 end
 
 myArray = ["Tim", "Tom", "Jim"]
-hello_2(array)
+hello_2(myArray)
 
 # call your method here!
